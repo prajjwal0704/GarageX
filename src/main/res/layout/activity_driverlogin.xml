@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8BABA"
+    tools:context=".DriverloginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/logos" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Driver Login"
+        android:textColor="#703F3F"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_weight="0"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHighlight="#872A2A"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#756C6C"
+        android:text="Login"
+        android:textColor="#6E1010"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="#986B6B"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Don't have an account?"
+        android:textColor="#703F3F"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_weight="0"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#756C6C"
+        android:text="Register"
+        android:textColor="#6E1010"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="#986B6B"
+        android:layout_marginLeft="100dp"/>
+
+
+
+</LinearLayout>
