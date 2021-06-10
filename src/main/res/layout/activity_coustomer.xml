@@ -4,38 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CoustomerActivity"
-    android:background="#D8BABA"
-    android:orientation="vertical">
+    android:background="#fca503"
+    android:orientation="vertical"
+    tools:context=".CoustomerActivity">
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="218dp"
-        app:srcCompat="@drawable/logos" />
+        app:srcCompat="@drawable/mygaragexlogo" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       android:layout_marginTop="20dp"
         android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:background="#fca503"
         android:gravity="center_horizontal|center_vertical"
         android:text="Customer Login"
-        android:textColor="#703F3F"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        android:layout_weight="0"/>
+        android:textColor="#EFEEEE"
+        android:textSize="40dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
-        android:textColorHighlight="#872A2A"
-        android:textSize="20dp"
-        android:layout_marginTop="20dp"/>
+        android:textColorHighlight="#EEE7E7"
+        android:textSize="20dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -49,36 +50,36 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#756C6C"
-        android:text="Login"
-        android:textColor="#6E1010"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="20dp"
-        app:backgroundTint="#986B6B"
-        android:layout_marginLeft="150dp"/>
+        android:background="@drawable/custom_button"
+        android:text="Login"
+        android:textColor="#DFDFDF"
+        app:backgroundTint="#131212" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
         android:gravity="center_horizontal|center_vertical"
         android:text="Don't have an account?"
-        android:textColor="#703F3F"
+        android:textColor="#EBE6E6"
         android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_weight="0"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="#756C6C"
-        android:text="Register"
-        android:textColor="#6E1010"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
-        app:backgroundTint="#986B6B"
-        android:layout_marginLeft="100dp"/>
+        android:background="@drawable/custom_button"
+        android:text="Register"
+        android:textColor="#F8F6F6"
+        app:backgroundTint="#141313" />
 
 
 </LinearLayout>
